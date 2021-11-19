@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Javascript Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+
+
+   <!-- fontawsome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  </head>
+  <body>
+
+    <div class="start-btn">
+      <button class="button">Star Quiz</button>
+    </div>
+
+    <div class="info-box">
+      <div class="info-title">
+        <span>Some Points To Remember</span>
+      </div>
+      <div class="info-list">
+        <div class="info">1.Do Not quit before you finish the test</div>
+        <div class="info">2.Every question will have a <span> 30 seconds </span> timer</div>
+        <div class="info">3.Answer every question</div>
+        <div class="info">4.Do Not cheat from your notebook</div>
+        <div class="info">5.You will be marked according to your performance</div>
+
+      </div>
+
+      <div class="buttons">
+         <button class="quit">Quit</button>
+         <button class="restart">Continue</button>
+      </div>
+    </div>
+
+    <!-- QIIZ BOX -->
+
+    <div class="quiz-box">
+      <header>
+        <div class="title">Quiz Application</div>
+        <div class="timer">
+          <div class="timer-text">Time Left</div>
+          <div class="timer-sec">15</div>
+
+        </div>
+      </header>
+
+      <section>
+        <div class="que-text">
+          <!-- <span>What does HTML stand for</span> -->
+        </div>
+        <div class="option-list">
+          <!-- <div class="option">
+            <span>Hyper Text Processor</span>
+            <div class="icon tick"><i class="fas fa-check"></i></div>
+          </div>
+
+          <div class="option">
+            <span>Hyper Text Markup Language</span>
+            <div class="icon cross"><i class="fas fa-times"></i></div>
+          </div>
+
+          <div class="option">
+            <span>Hyper Text multiple language</span>
+
+          </div>
+
+          <div class="option">
+            <span>Hyper Text multiple Processor</span>
+          </div> -->
+
+        </div>
+      </section>
+
+      <footer>
+        <div class="total-que">
+          <!-- <span> <p>2</p> Of <p>5</p> Questions </span> -->
+          </div>
+          <button class="next-button">Next Question</button>
+
+      </footer>
+
+    </div>
+
+
+    <!-- Result box  -->
+    <div class="result-box">
+      <div class="icon">
+      <i class="fas fa-star"></i>
+      </div>
+      <div class="complete-text">
+        You have completed your quiz
+      </div>
+      <div class="score-text">
+        <span>and sorry, you only got <p>2</p> out of <p>5</p> </span>
+      </div>
+      <div class="buttons">
+        <button class="restart">Restart</button>
+          <button class="quit">Quit Quiz</button>
+
+      </div>
+
+    </div>
+
+<script src="questions.js" type="text/javascript"></script>
+<script src="app.js" type="text/javascript"></script>
+  </body>
+</html>
